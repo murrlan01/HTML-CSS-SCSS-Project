@@ -152,9 +152,7 @@ main .main-section-card {
 #img-section .text {
   display: flex;
   justify-content: center;
-  background-color: rgba(206, 160, 53, 0.6156862745);
   font-size: 21px;
-  border: 2px solid #cea135;
 }
 #img-section .image2 {
   display: flex;
