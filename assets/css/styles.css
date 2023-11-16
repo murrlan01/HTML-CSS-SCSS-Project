@@ -1,0 +1,303 @@
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("/assets/fonts/Montserrat-VariableFont_wght.ttf");
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card {
+  padding: 30px;
+  border: 1px solid #cea135;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: rgba(206, 160, 53, 0.6156862745);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: wheat;
+}
+header .container {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  height: 200px;
+}
+header a {
+  font-size: 20px;
+  color: #cea135;
+  transition: all 0.4s ease-in-out;
+  padding: 20px 0px;
+  display: inline-block;
+  margin: 15px;
+}
+header a:hover {
+  color: rgb(81, 139, 27);
+}
+header a.active {
+  opacity: 0.8;
+}
+header a.active:hover {
+  color: rgb(81, 139, 27);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  background-image: url(../images/space1.jpg);
+  padding: 100px;
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  background-color: wheat;
+}
+main .main-section {
+  padding: 1px 5px;
+  background-color: antiquewhite;
+  color: black;
+  width: 445px;
+  border-radius: 1px;
+  margin-bottom: 5px;
+  opacity: 0.7;
+  border: 2px solid #cea135;
+}
+main .main-section-card {
+  padding: 1px 5px;
+  background-color: wheat;
+  color: black;
+  width: 545px;
+  border-radius: 1px;
+  opacity: 0.7;
+  border: 2px solid rgb(81, 139, 27);
+}
+
+#cards {
+  display: grid;
+  gap: 30px;
+  align-items: center;
+  background-color: #cbcbcb;
+}
+#cards .card a {
+  color: black;
+}
+#cards .card .icons {
+  font-size: 25px;
+  width: 30px;
+}
+#cards .card:hover {
+  box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+}
+
+#map {
+  background-color: #cbcbcb;
+  display: flex;
+  justify-content: center;
+}
+#map iframe:hover {
+  box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+  -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+}
+
+#img-section {
+  background-color: #cbcbcb;
+  padding-bottom: 20px;
+}
+#img-section .image1 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+#img-section .image1 img {
+  height: 400px;
+  width: 600px;
+  border: 4px solid #cea135;
+  box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+}
+#img-section .text {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(206, 160, 53, 0.6156862745);
+  font-size: 21px;
+  border: 2px solid #cea135;
+}
+#img-section .image2 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+#img-section .image2 img {
+  height: 400px;
+  width: 600px;
+  border: 4px solid #cea135;
+  box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+}
+#img-section .image3 {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+#img-section .image3 img {
+  height: 400px;
+  width: 600px;
+  border: 4px solid #cea135;
+  box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: 0px 0px 49px 4px rgba(0, 0, 0, 0.58);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  background-color: wheat;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+}
+footer .logo img {
+  height: 200px;
+}
+footer .copyright {
+  color: #a77f21;
+  margin-right: 15px;
+}
+footer a {
+  font-size: 20px;
+  color: #cea135;
+  transition: all 0.4s ease-in-out;
+  padding: 20px 0px;
+  display: inline-block;
+  margin: 15px;
+}
+footer a:hover {
+  color: rgb(81, 139, 27);
+}
+footer a.active {
+  opacity: 0.8;
+}
+footer a.active:hover {
+  color: rgb(81, 139, 27);
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  header {
+    height: 150px;
+    flex-direction: row;
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+  }
+  header .logo img {
+    height: 150px;
+  }
+  main {
+    background-image: url("/assets/images/space21.jpg");
+  }
+  main .main-section {
+    width: 100%;
+    font-size: 10px;
+  }
+  main .main-section-card {
+    width: 100%;
+    font-size: 10px;
+  }
+  main .main-section-card p {
+    font-size: 1.3em;
+  }
+  #cards .card a h3 {
+    font-size: 15px;
+  }
+  #cards .card a p {
+    font-size: 15px;
+  }
+  #cards .card .icons {
+    font-size: 20px;
+  }
+  #map iframe {
+    width: 100%;
+    height: 300px;
+  }
+  #img-section .image1 img {
+    width: 100%;
+    height: 250px;
+  }
+  #img-section .text {
+    font-size: 15px;
+  }
+  #img-section .image2 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  }
+  #img-section .image2 img {
+    width: 100%;
+    height: 250px;
+  }
+  #img-section .image3 {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+  }
+  #img-section .image3 img {
+    width: 100%;
+    height: 250px;
+  }
+  footer .container {
+    display: flex;
+    align-items: center;
+  }
+  footer .logo img {
+    height: 150px;
+  }
+  footer .copyright {
+    font-size: 13px;
+  }
+}
+@media screen and (min-width: 800px) {
+  #map iframe {
+    width: 650px;
+    height: 500px;
+  }
+}/*# sourceMappingURL=styles.css.map */
