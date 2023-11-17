@@ -231,7 +231,7 @@ footer a.active:hover {
     height: 150px;
   }
   main {
-    background-image: url("/assets/images/space21.jpg");
+    background-image: url("../images/space21.jpg");
   }
   main .main-section {
     width: 100%;
