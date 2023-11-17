@@ -23,6 +23,7 @@ $gold-dark: #a77f21;
     margin: 0 auto;
 }
 
+
 h1,
 h2,
 h3 {
@@ -117,32 +118,35 @@ main {
 }
 
 #cards {
-    display: grid;
-    gap: 30px;
     background-color: $wheat;
 
-    .card {
-        text-align: center;
-        padding: 20px;
-        margin: 20px;
-        border: 1px solid $gold;
-        border-radius: 5px;
-        background-color: $gold-transparent;
+    .cards {
+        display: flex;
 
-        a {
-            color: $black;
 
-            .icons {
-                display: flex;
-                justify-content: center;
-                font-size: 25px;
+        .card {
+            text-align: center;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid $gold;
+            border-radius: 5px;
+            background-color: $gold-transparent;
+
+            a {
+                color: $black;
+
+                .icons {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 25px;
+                }
             }
-        }
 
-        &:hover {
-            box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
-            -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
-            -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+            &:hover {
+                box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+                -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+                -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
+            }
         }
     }
 }
@@ -302,19 +306,23 @@ footer {
 
     #cards {
 
-        .card {
-            a {
-                h3 {
-                    font-size: 15px;
+        .cards {
+            display: grid;
+
+            .card {
+                a {
+                    h3 {
+                        font-size: 15px;
+                    }
+
+                    p {
+                        font-size: 15px;
+                    }
                 }
 
-                p {
-                    font-size: 15px;
+                .icons {
+                    font-size: 20px;
                 }
-            }
-
-            .icons {
-                font-size: 20px;
             }
         }
     }

@@ -94,11 +94,12 @@ main .main-section-card {
 }
 
 #cards {
-  display: grid;
-  gap: 30px;
   background-color: wheat;
 }
-#cards .card {
+#cards .cards {
+  display: flex;
+}
+#cards .cards .card {
   text-align: center;
   padding: 20px;
   margin: 20px;
@@ -106,15 +107,15 @@ main .main-section-card {
   border-radius: 5px;
   background-color: rgba(206, 160, 53, 0.6156862745);
 }
-#cards .card a {
+#cards .cards .card a {
   color: black;
 }
-#cards .card a .icons {
+#cards .cards .card a .icons {
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
-#cards .card:hover {
+#cards .cards .card:hover {
   box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
   -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
   -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
@@ -244,13 +245,16 @@ footer a.active:hover {
   main .main-section-card p {
     font-size: 1.3em;
   }
-  #cards .card a h3 {
+  #cards .cards {
+    display: grid;
+  }
+  #cards .cards .card a h3 {
     font-size: 15px;
   }
-  #cards .card a p {
+  #cards .cards .card a p {
     font-size: 15px;
   }
-  #cards .card .icons {
+  #cards .cards .card .icons {
     font-size: 20px;
   }
   #map iframe {
