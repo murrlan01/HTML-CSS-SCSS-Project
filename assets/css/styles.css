@@ -62,7 +62,7 @@ header a.active:hover {
 main {
   display: flex;
   justify-content: center;
-  background-image: url(../images/space1.jpg);
+  background-image: url("../images/space1.jpg");
   padding: 100px;
   height: 500px;
   background-attachment: fixed;
