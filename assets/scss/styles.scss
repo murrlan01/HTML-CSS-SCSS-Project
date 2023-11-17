@@ -41,13 +41,13 @@ p {
     font-family: "Montserrat", sans-serif;
 }
 
-.card {
-    padding: 30px;
-    border: 1px solid $gold;
-    border-radius: 5px;
-    margin: 20px;
-    background-color: $gold-transparent;
-}
+// .card {
+//     padding: 20px;
+//     border: 1px solid $gold;
+//     border-radius: 5px;
+//     margin: 20px;
+//     background-color: $gold-transparent;
+// }
 
 
 header {
@@ -103,7 +103,6 @@ main {
     box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
     -webkit-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
     -moz-box-shadow: 9px 7px 47px 0px rgba(0, 0, 0, 0.94);
-    background-color: $wheat;
 
     .main-section {
         padding: 1px 5px;
@@ -130,17 +129,24 @@ main {
 #cards {
     display: grid;
     gap: 30px;
-    align-items: center;
-    background-color: $cream;
+    background-color: $wheat;
 
     .card {
+        text-align: center;
+        padding: 20px;
+        margin: 20px;
+        border: 1px solid $gold;
+        border-radius: 5px;
+        background-color: $gold-transparent;
+
         a {
             color: $black;
-        }
 
-        .icons {
-            font-size: 25px;
-            width: 30px;
+            .icons {
+                display: flex;
+                justify-content: center;
+                font-size: 25px;
+            }
         }
 
         &:hover {
@@ -152,7 +158,7 @@ main {
 }
 
 #map {
-    background-color: $cream;
+    background-color: $wheat;
     display: flex;
     justify-content: center;
 
@@ -164,8 +170,9 @@ main {
 }
 
 #img-section {
-    background-color: $cream;
+    background-color: $wheat;
     padding-bottom: 20px;
+    border-bottom: 1px solid $gold;
 
 
     .image1 {
